@@ -169,15 +169,15 @@ def register():
   for cls in classes:
     bpy.utils.register_class(cls)
 
-    bpy.types.Scene.Favorite_Collection_List = bpy.props.CollectionProperty(type=Favorite_Collections_Property)
-    bpy.types.Scene.Favorite_Collection_List_Index = bpy.props.IntProperty()
+bpy.types.Scene.Favorite_Collection_List = bpy.props.CollectionProperty(type=Favorite_Collections_Property)
+bpy.types.Scene.Favorite_Collection_List_Index = bpy.props.IntProperty()
 
 def unregister():
   for cls in classes:
     bpy.utils.unregister_class(cls)
 
-    del bpy.types.Scene.Favorite_Collection_List
-    del bpy.types.Scene.Favorite_Collection_List_Index
+del bpy.types.Scene.Favorite_Collection_List
+del bpy.types.Scene.Favorite_Collection_List_Index
 
 if __name__ == "__main__":
     register()
