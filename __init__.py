@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Favorite Collection",
     "author": "BlenderBoi",
-    "version": (1, 1),
+    "version": (1, 2),
     "blender": (2, 80, 0),
     "description": "",
     "wiki_url": "",
