@@ -1,4 +1,6 @@
-# Favorite_Collections
+# Favorite Collections
+
+![Banner](https://blenderboi.com/gallery/FavoriteCollections/Banner.png)
 
 Favorite Collection is a Simple Addon that lets you put your most used Collection into a list in your side panel.
 
